@@ -95,6 +95,39 @@ const episodes: Episode[] = [
       { polish: "Proszę wezwać karetkę", pronunciation: "PRO-sheh VEZ-vahch kah-RET-keh", english: "Please call an ambulance" },
     ],
   },
+  {
+    id: 6, title: "The Polish Grocery Run", subtitle: "Śmietana or die trying",
+    emoji: "🥛", genre: "HEIST FILM",
+    description: "You enter a Polish grocery store in the Netherlands. The labels are in Polish. The cashier speaks Polish. You need śmietana, twaróg, and your dignity intact.",
+    phrases: [
+      // Time-of-day greetings
+      { polish: "Dzień dobry", pronunciation: "Jen DOH-bri", english: "Good day (morning/afternoon)" },
+      { polish: "Dobry wieczór", pronunciation: "DOH-bri VYEH-choor", english: "Good evening" },
+      { polish: "Cześć!", pronunciation: "Cheshch", english: "Hi! (casual, any time)" },
+      // Finding products
+      { polish: "Przepraszam, szukam śmietany", pronunciation: "Psheh-PRAH-shahm, SHOO-kahm shmyeh-TAH-nih", english: "Excuse me, I'm looking for sour cream" },
+      { polish: "Gdzie jest twaróg?", pronunciation: "GJEH yest TVAH-roog", english: "Where is the cottage cheese?" },
+      { polish: "Czy jest śmietana osiemnastoprocentowa?", pronunciation: "Chih yest shmyeh-TAH-nah oh-shyem-NAHS-toh-proh-tsen-TOH-vah", english: "Do you have 18% sour cream?" },
+      { polish: "Czy to jest świeże?", pronunciation: "Chih toh yest SHVYEH-zheh", english: "Is this fresh?" },
+      // Paying
+      { polish: "Ile płacę?", pronunciation: "EE-leh PWAH-tseh", english: "How much do I pay?" },
+      { polish: "Kartą, proszę", pronunciation: "KAR-tow, PRO-sheh", english: "By card, please" },
+      { polish: "Gotówką", pronunciation: "Go-TOOV-kow", english: "Cash" },
+      { polish: "Czy mogę zapłacić kartą?", pronunciation: "Chih MOH-geh zah-PWAH-cheech KAR-tow", english: "Can I pay by card?" },
+      { polish: "Czy jest paragon?", pronunciation: "Chih yest pah-RAH-gon", english: "Is there a receipt?" },
+      { polish: "Poproszę reklamówkę", pronunciation: "Poh-PRO-sheh reh-klah-MOOV-keh", english: "A plastic bag, please" },
+      // Thank you & goodbye
+      { polish: "Dziękuję!", pronunciation: "Jen-KOO-yeh", english: "Thank you!" },
+      { polish: "Dziękuję bardzo!", pronunciation: "Jen-KOO-yeh BAHR-dzo", english: "Thank you very much!" },
+      { polish: "Do widzenia!", pronunciation: "Doh vee-DZEH-nyah", english: "Goodbye!" },
+      { polish: "Do zobaczenia!", pronunciation: "Doh zoh-bah-CHEH-nyah", english: "See you!" },
+      // Weekend & well-wishes
+      { polish: "Miłego dnia!", pronunciation: "Mee-WEH-go DNYAH", english: "Have a nice day!" },
+      { polish: "Miłego wieczoru!", pronunciation: "Mee-WEH-go vyeh-CHOH-roo", english: "Have a nice evening!" },
+      { polish: "Miłego weekendu!", pronunciation: "Mee-WEH-go weekend-oo", english: "Have a great weekend!" },
+      { polish: "Dobrej nocy!", pronunciation: "DOHB-rey NOH-tsih", english: "Good night!" },
+    ],
+  },
 ];
 
 function PhraseCard({ phrase }: { phrase: Phrase }) {
